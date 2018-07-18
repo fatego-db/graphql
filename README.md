@@ -12,6 +12,6 @@ import data to local or remote mongodb.
 
 ## Features
 - [x] Basic Servant Query
-- [ ] Skill Query
+- [x] Basic Skill Query
 - [ ] Material Query
 - [ ] Craft Essence Query
