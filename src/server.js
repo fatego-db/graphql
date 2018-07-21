@@ -148,10 +148,11 @@ app.use("/graphql", graphqlHTTP({
   graphiql: true
 }));
 
-app.listen(4000, (error) => {
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, (error) => {
   if (error) {
     console.error(error.message);
   } else {
-    console.log("Express GraphQL Server Now Running On localhost:4000/graphql")
+    console.log(`Express GraphQL Server Now Running On Port ${PORT}`);
   }
 });
